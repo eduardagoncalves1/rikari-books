@@ -40,7 +40,7 @@
 
 <script>
 import CartItem from './CartItem.vue'
-import CartSummary from './CartSummary.vue'
+import cartSummary from './cartSummary.vue'
 
 export default {
   name: 'CartPanel',
