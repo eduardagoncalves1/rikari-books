@@ -245,7 +245,7 @@ const produtos = [
     autor: "Tatsuya Endo",
     resenha: "Um espião, uma assassina e uma criança telepata formam uma família falsa para uma missão. Uma comédia adorável cheia de coração e aventura.",
     preco: 43.90,
-    capa: "https://covers.openlibrary.org/b/isbn/9781974717965-L.jpg",
+    capa: "https://m.media-amazon.com/images/I/81enbrJVL7L._SL1500_.jpg",
     genero: "Comédia/Ação",
     lancamento: "2019",
     maisVendido: true,
