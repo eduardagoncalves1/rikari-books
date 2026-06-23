@@ -28,7 +28,7 @@
           />
         </div>
 
-        <CartSummary
+        <cartSummary
           :carrinho="carrinho"
           @finalizar="$emit('finalizar')"
           @limpar="$emit('limpar')"
@@ -44,7 +44,7 @@ import cartSummary from './cartSummary.vue'
 
 export default {
   name: 'CartPanel',
-  components: { CartItem, CartSummary },
+  components: { CartItem, cartSummary },
   props: {
     carrinho: { type: Object, required: true },
     visivel: { type: Boolean, default: false }
